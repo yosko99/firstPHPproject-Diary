@@ -1,0 +1,28 @@
+html {
+  background-image: url("img/img.jpg");
+}
+
+h1 {
+    color: white;
+    font-family: Nunito;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url("img/img.jpg");
+}
+
+
+
+.login-block {
+  padding: 1em;
+  background-color: white;
+  border-radius: 0 10% 0 10%;
+}
+
+
+@media (min-width:900px) {
+  .login-block{
+    width:40%;
+  }
+}
